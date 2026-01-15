@@ -29,5 +29,12 @@ int main() {
     else if(o == '-'){
         cout << a << " - " << c << " = " << sub();
     }
+    else if(o == '*'){
+        cout << a << " * " << c << " = " << mul();
+    }
+    else if(o == '/'){
+        cout << a << " / " << c << " = " << div();
+    }
+    else{cout << "False";}
     return 0;
 }
