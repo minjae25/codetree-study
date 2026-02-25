@@ -18,7 +18,7 @@ int main() {
     sort(str, str+n);
     int cnt = 0;
     for(int i = 0; i < n; i++){
-        if(str[i].find(t) != string::npos){
+        if(str[i].substr(0, t.length()) == t){
             cnt++;
         }
         if(cnt == k){
